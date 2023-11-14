@@ -1,0 +1,78 @@
+
+.contenedor{
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.c{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.naranja{
+    background-color: #e1bee7;
+}
+
+.amarillo{
+    background-color: #ce93d8;
+}
+
+.aqua{
+    background-color: #ba68c8;
+}
+
+.azul{
+    background-color: #ab47bc;
+}
+
+.azulmarino{
+    background-color: #9c27b0 ;
+}
+
+.azuloscuro{
+    background-color: #8e24aa;
+}
+
+.icono{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+
+.texto{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    color: #ffffff;
+}
+
+.enlaces{
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.enlace{
+    padding-left: 30px;
+    color: rgb(234, 97, 120);
+}
+
+a:hover{
+    color: rgb(255, 179, 37);
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: violet;
+}
