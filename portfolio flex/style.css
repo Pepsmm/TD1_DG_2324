@@ -1,114 +1,188 @@
 
 *{
     margin: 0%;
+    box-sizing: border-box;
+    
 }
+
+a{
+text-decoration: none;
+}
+
+
+body{
+    background-color: rgb(89, 68, 184);
+}
+
+
 
 /*HEADER*/
 
 .header{
-    height: 70px;
-    width: 100%;
-    background-color: rgb(225, 152, 253);
+    width: 93%;
+    height: 17vh;
+    background-color: rgb(38, 219, 162);
+    border-radius: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10vh;
+    padding-right: 15vh;
+    margin-top: 2%;
+    margin-left: 3.3%;
 }
 
-h2{
+.pmm{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 600%;
     color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
 }
 
-.PMM{
-    position:absolute;
-    font-size: 50px;
-    padding-top: 8px;
-    padding-left: 20px;
+.sobremi{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 270%;
+    color: rgb(255, 255, 255); 
+    align-self: center;  
+    padding-left: 35%;
 }
 
 .contacto{
-    font-size: 30px;
-    text-align: end;
-    padding-top: 20px;
-    padding-right: 20px;
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 270%;
+    color: rgb(255, 255, 255);   
+    align-self: center;
 }
 
-
-/*TITULO*/
-
-.portfoliopmm{
-    color: rgb(225, 152, 253);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
-    padding-right: 20px;
-    padding-top: 30px;
-    letter-spacing: 15px;
-    text-align: center;
-}
-
-
+/*PÁGINA INICIO*/
 
 /*SECTION*/
 
-section{
+.menuproyectos{
     width: 100%;
-    height: 1200px;
-    box-sizing: border-box;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.cajatexto{
+    width: 80vh;
+    height: 70vh;
+    border: rgb(38, 219, 162) 1.4vh dotted;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
+.paginasweb{
+    font-family: "gyst-variable",sans-serif;
+    font-variation-settings: 'wght' 100;
+    font-size: 380%;   
+    color: rgb(255, 255, 255);
+    align-self: center;
 }
 
-.auxilio{
-    color: rgb(225, 152, 253);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    padding-left: 60px;
-    padding-top: 150px;
+.cajaimagen{
+    width: 95vh;
+    height: 70vh;
+    border-radius: 10%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
 }
 
-.aux{
-    height: 600px;
+.webimagen{
+    width: 130%;
+    height: auto;
+    margin-left: 2%;
+}
+
+
+
+/*PÁGINAS WEBS*/
+.titulosproyectos{
+    font-family: "gyst-variable",sans-serif;
+    font-variation-settings: 'wght' 100;
+    font-size: 250%;   
+    color: rgb(255, 255, 255);
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.cajanombrefoto{
+    width: 100%;
+    height: 5vh;
+    margin-top: 3%;
+    padding-left: 12%;
+    padding-right: 12.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nombrefoto{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 170%;
+    color: rgb(252, 252, 252);
+}
+
+.cajawebea{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.webeafotos{
+    height: 32.5vh;
     width: auto;
-}
-
-.cajaauxilio1{
-    height: 600px;
-    width: 400px;
-    margin-left: 150px;
-    margin-top: 300px;
-    float: left;
-    
-}
-
-.auxilio1{
-    filter: saturate(0);
-}
-
-.cajaauxilio2{
-    height: 600px;
-    width: 400px;
-    margin-left: 190px;
-    margin-top: 30px;
-    float: left;
-    
-}
-
-.auxilio2{
-    filter: invert(100%);
-}
-
-.cajaauxilio3{
-    height: 600px;
-    width: 400px;
-    margin-right: 150px;
-    margin-top: 300px;
-    float: right;
-
-}
-
-.auxilio3{
-    filter: saturate(0);
+    border-radius: 6%;
+    filter: blur(2.5px);
 }
 
 a:hover img{
-    filter: saturate(1);
+    filter: blur(0);
 }
 
-a:hover .auxilio2{
-    filter: invert(0);
+.cajadescripcionfoto{
+    width: 100%;
+    height: 5vh;
+    margin-top: 1%;
+    padding-left: 13.2%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descripcionfoto{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 120%;
+    color: rgb(252, 252, 252);
+}
+
+
+
+.cajavideo{
+    width: 80%;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 10%;
+    border-radius: 5%;
 }
