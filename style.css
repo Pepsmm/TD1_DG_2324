@@ -1,3 +1,5 @@
+
+
 *{
 margin: 0%;
 padding: 0%;
@@ -5,5 +7,61 @@ box-sizing: border-box;
 }
 
 body{
-color: aquamarine;
+background-image: url(img/fondo.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+/*CONTENIDO*/
+
+.cajacabecera{
+    width: 60%;
+    height: 12vh;
+    border: hwb(241 58% 6%) 0.7vh solid;
+    border-radius: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+.cabecera{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 400%;
+    color:  hsl(241, 75%, 76%);
+    align-self: center;
+}
+
+
+.cajaenlaces{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    font-family: new-astro-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.cajaul{
+    height: 9vh;
+    width: auto;
+    border: hsl(241, 75%, 76%) 0.5vh dotted;
+    border-radius: 6vh;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(241, 75%, 76%);
+    padding: 2vh;
+    align-self: center;
 }
