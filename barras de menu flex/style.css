@@ -1,18 +1,13 @@
 
 .contenedor{
-    width: 1200px;
-    height: 200px;
-    position: relative;
-    margin: auto;
-    margin-top: 150px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 15%;
 }
 
 .c{
     width: 200px;
     height: 200px;
-    display: flex;
 }
 
 .naranja{
@@ -21,14 +16,17 @@
 
 .amarillo{
     background-color: #ce93d8;
+    flex-shrink: 2;
 }
 
 .aqua{
     background-color: #ba68c8;
+    flex-grow: 15;
 }
 
 .azul{
     background-color: #ab47bc;
+    flex-shrink: 1;
 }
 
 .azulmarino{
@@ -40,19 +38,17 @@
 }
 
 .icono{
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%;
     color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
 }
 
 .texto{
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 130%;
     color: #ffffff;
-    display: flex;
-    justify-content: space-around;
 }
 
 .enlaces{
