@@ -1,0 +1,139 @@
+*{
+margin: 0%;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.flex-container div{
+    margin: 1vh;
+    align-self: center;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    border: solid;
+    border-radius: 7vh;
+    padding: 1%;
+    width: 5%;
+    height: auto;
+}
+
+.home{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    padding-right: 62%;
+    padding-left: 1%;
+}
+
+.container-imagen{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    height: 60vh;
+    width: auto;
+    border-radius: 10vh;
+}
+
+.container-linea{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+}
+
+.linea{
+    height: 0.5vh;
+    width: 95%;
+    background-color: black;
+    border-radius: 3vh;
+}
+
+.container-saludo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+/*PORTATIL*/
+
+@media (max-width: 1280px) {
+
+    .menu{
+        width: 6%;
+        height: auto;
+    }
+    .home{
+        padding-right: 56%;
+    }
+}
+
+/*IPAD*/
+
+@media (max-width: 768px) {
+
+    .menu{
+        width: 11%;
+        height: auto;
+    }
+    .home{
+        padding-right: 28%;
+    }
+    .container-imagen{
+        margin-top: 7%;
+    }
+    .imagen{
+        height: 55vh;
+        width: auto;
+    }
+    .container-linea{
+        margin-top: 8%;
+    }
+    .container-saludo{
+        margin-top: 5%;
+    }
+}
+
+/*IHPHONE*/
+
+@media (max-width: 600px) {
+
+    .flex-container{
+        flex-direction: column;
+    }
+    .menu{
+        width: 18%;
+        height: auto;
+    }
+    .home{
+        padding-right: 0%;
+    }
+    .container-imagen{
+        margin-top: 3%;
+    }
+    .imagen{
+        height: 45vh;
+        width: auto;
+        border-radius: 5vh;
+    }
+    .container-linea{
+        margin-top: 5%;
+    }
+    .container-saludo{
+        margin-top: 3%;
+    }
+}
