@@ -1,0 +1,65 @@
+
+body{
+background-color: antiquewhite;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+.texto{
+    background-color: rgb(253, 244, 233);
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    border-style: dotted;
+    border-radius: 2vh;
+}
+
+
+
+
+
+.texto1{
+font-family: 'Kalnia', serif;
+}
+
+.texto2{
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto3{
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.texto4{
+    font-family: 'Lobster', sans-serif;
+}
+
+.texto5{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.texto6{
+    font-family: 'Russo One', sans-serif;
+}
+
+.texto7{
+    font-family: 'Amatic SC', sans-serif;
+}
+
+.texto8{
+    font-family: 'Sacramento', cursive;
+}
+
+.texto9{
+    font-family: 'Homemade Apple', cursive;
+}
