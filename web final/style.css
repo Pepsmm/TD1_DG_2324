@@ -152,7 +152,7 @@ border-style: none;
 }
 
 .cover-item:hover {
-    vertical-align: sub;
+    margin-bottom: 20px;
     box-shadow: 20px 18px 6px #a18cff;
 }
 
@@ -200,7 +200,7 @@ margin-left: 16%;
     justify-content: flex-end;
 
     padding: 1%;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 0;
 }
 
@@ -209,3 +209,41 @@ margin-left: 16%;
     align-self: center;
 }
 
+
+/*CATEDRAL*/
+
+#catedralcoveritem {
+    position: relative;
+    display: inline-block;
+    margin: 8px 20px;
+    box-shadow: 10px 10px 4px #a18cff;
+    height: 438px;
+    width: 700px;
+    vertical-align: bottom;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#catedralcoveritem:hover {
+    margin-bottom: 20px;
+    box-shadow: 20px 18px 6px #a18cff;
+}
+
+
+.cajafootercatedral{
+    border-top: solid;
+    border-color: white;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 10%;
+    margin-bottom: 0;
+    padding: 1%;
+}
+
+#catedralfooter{
+    font-size: 220%;
+    align-self: center;
+}
